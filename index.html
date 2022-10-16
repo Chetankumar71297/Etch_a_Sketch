@@ -9,12 +9,15 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="slidecontainer">
+    <div class="inputcontainer">
         <input type="range" min="1" max="100" value="16" class="slider" id="myRange">
+        <button onclick="changeMode1()">Sketch</button>
+        <button onclick="changeMode2()">Eraser</button>
     </div>
     <p id="boardSize"></p>
     <div id="container">
 
     </div>
+    <button onclick="changeMode3()">Clear All</button>
 </body>
 </html>
